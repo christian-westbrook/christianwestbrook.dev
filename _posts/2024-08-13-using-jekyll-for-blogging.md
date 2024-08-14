@@ -31,5 +31,6 @@ I'll circle back now to my love for Markdown. Long before using Typora I was reg
 
 ## Discovering Jekyll and static site generation
 
-In working with various software repositories on GitHub over time I was repeatedly exposed to the terms "Jekyll" and "static site generation" without giving either of them most thought. It wasn't until I began searching for existing Markdown to HTML parsers for inspiration that I realized 
+Working on GitHub over time had repeatedly exposed me to the terms "Jekyll" and "static site generation", but it wasn't until I began looking for examples of Markdown parsers that I stopped long enough to realize the connection between Jekyll and what I was trying to do with Anansi.
 
+A static site generator is a tool that converts data structures into static HTML web pages. [Jekyll](https://jekyllrb.com/), a static site generator written in [Ruby](https://www.ruby-lang.org/en/), is the 
