@@ -26,9 +26,9 @@ Markdown is an incredibly simple markup language (the pun *has* to be intended) 
 
 I've also used Markdown to write project proposals, document software, record architectural decisions, and yes, even to write blog posts! Don't worry, we'll circle back to that.
 
-About a year ago I started looking for an improved text editor that would help me to stay focused for longer periods of productivity while writing, Markdown or otherwise. I tried [Grammarly](https://www.grammarly.com) and initially enjoyed its suggestions, but ultimately found my voice getting lost in translation. I found the same thing happening with the [Hemingway](https://hemingwayapp.com) editor, although I liked the interface more than Grammarly.
+About a year ago I started looking for an improved text editor that would help me to stay focused for longer periods of productivity while writing, Markdown or otherwise. Two editors that stood out to me were Hemingway and Typora.
 
-I eventually 
+Hemingway 
 
 
 
