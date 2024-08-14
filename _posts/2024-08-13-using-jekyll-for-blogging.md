@@ -1,19 +1,38 @@
 ---
 layout: post
-title: "Getting started with Jekyll for blogging"
+title: "A blogging pipeline with Typora, Jekyll, and GitHub Pages"
 date: 2024-08-13 20:00:00 -600
-categories: update
+categories: post
 tags: tutorial
 published: false
 ---
 
-Hello, world, and welcome back to the blog! Today I want to talk about how I was able to quickly stand up and publish a clean looking blog using [Jekyll](https://jekyllrb.com/). Let's dive right into it!
+Hello, world, and welcome back to the blog! Today I want to share how I've increased my capacity for writing and publishing blog posts by finding the right set of tools to build a workflow that works for me. 
 
-## The Markdown Lowdown
+In this post I'll take you along for the ride that led me to this point before breaking down how I stood up this blog and then sharing my workflow for writing and publishing blog posts. While the tools I discovered along the way were undoubtedly important, the biggest shift for me was actually a mental one, and so I'll break that down too. 
 
-I'll kick this post off by sharing that I *really* love using [Markdown](https://www.markdownguide.org/).
+My hope is that learning what's working for me might help you to build a workflow that will work for you as well. Let's dive right into it!
 
-Markdown is an incredibly simple markup language (the pun *has* to be intended) that you can use to easily write and format just about any kind of document. I use Markdown to write READMEs, project proposals, documentation, and even blog posts!
+# Table of Contents
+
+[The Markdown lowdown](#the-markdown-lowdown)
+[Discovering Jekyll and static site generation](#discovering-jekyll-and-static-site-generation)
+
+## The Markdown lowdown
+
+Every story needs to begin somewhere, and so I guess I'll kick this one off by sharing the fact that I *really* love using [Markdown](https://www.markdownguide.org/).
+
+Markdown is an incredibly simple markup language (the pun *has* to be intended) that you can use to easily write and format just about any kind of document. One of Markdown's main selling points for me is its integration with repository hosting giants GitHub and GitLab. Most software repositories will contain, at a bare minimum, the Markdown file `README.md` for expressing how to install and make use of the provided software.
+
+I've also used Markdown to write project proposals, document software, record architectural decisions, and yes, even to write blog posts! Don't worry, we'll circle back to that.
+
+About a year ago I started looking for an improved text editor that would help me to stay focused for longer periods of productivity while writing, Markdown or otherwise. I tried [Grammarly](https://www.grammarly.com) and initially enjoyed its suggestions, but ultimately found my voice getting lost in translation. I found the same thing happening with the [Hemingway](https://hemingwayapp.com) editor, although I liked the interface more than Grammarly.
+
+I eventually 
+
+
+
+I tried out [Hemingway](https://hemingwayapp.com) and  and  Along the way I found a desktop Markdown editor called Typora that actually helped 
 
 About a year ago I started using a desktop Markdown editor called [Typora](https://typora.io/) in an attempt to increase my capacity for focused writing and, quite surprisingly to me, it actually stuck. Typora's minimalist interface worked so well that it even got me thinking about how very *nice* it could be to write blog posts completely in Markdown that were immediately publishable without any extra steps for formatting or conversion. In fact, I had already tried to solve this problem a different way more more than a year prior through a side project I called [Anansi](https://github.com/christian-westbrook/anansi).
 
@@ -33,4 +52,6 @@ I'll circle back now to my love for Markdown. Long before using Typora I was reg
 
 Working on GitHub over time had repeatedly exposed me to the terms "Jekyll" and "static site generation", but it wasn't until I began looking for examples of Markdown parsers that I stopped long enough to realize the connection between Jekyll and what I was trying to do with Anansi.
 
-A static site generator is a tool that converts data structures into static HTML web pages. [Jekyll](https://jekyllrb.com/), a static site generator written in [Ruby](https://www.ruby-lang.org/en/), is the 
+A static site generator is a tool that converts data structures into static HTML web pages. [Jekyll](https://jekyllrb.com/), a static site generator written in [Ruby](https://www.ruby-lang.org/en/), is the tool that powers GitHub Pages and provides complete support for Markdown right out of the box!
+
+## Getting started with Jekyll and GitHub Pages
