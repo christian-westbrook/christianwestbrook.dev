@@ -26,9 +26,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://christianwestbrook.dev" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  christian-westbrook
 
-author:
-  name: Christian Westbrook
-  email: "christian.a.westbrook@proton.me"
+author: Christian Westbrook
+email: "christian.a.westbrook@proton.me"
 
 # Build settings
 theme: minima
