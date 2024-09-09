@@ -21,15 +21,30 @@
 title: christianwestbrook.dev
 email: christian.a.westbrook@proton.me
 description: >- # this means to ignore newlines until "baseurl:"
-  I'm a lifelong learner immersed in the world of computing.
+  Husband | Engineering Leader | Computing Professional and Researcher
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://christianwestbrook.dev" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  christian-westbrook
 
+author:
+  name: Christian Westbrook
+  email: "christian.a.westbrook@proton.me"
+
 # Build settings
 theme: minima
+
 plugins:
   - jekyll-feed
+
+header_pages:
+  - about.md
+
+minima:
+  skin: classic
+
+  social_links:
+    - { platform: github,  user_url: "https://github.com/christian-westbrook" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/christian-westbrook/" }
 
 # Exclude from processing.
 # The following items will not be processed, by default.
