@@ -38,7 +38,7 @@ plugins:
 header_pages:
   - about.md
 
-google_analytics: G-QMCXCS6GPW
+google_analytics: G-J49SZPM1LK
 
 minima:
   skin: classic
