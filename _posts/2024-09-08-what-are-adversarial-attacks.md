@@ -20,7 +20,7 @@ But behind our increasing reliance on machine learning lies an emerging threat. 
 
 What if an attacker could convince a self-driving car to mistake a stop sign for a speed limit sign? What if they could force medical imaging systems to misdiagnose a patient's disease?
 
-Although these scenarios may sound exaggerated, they're grounded in reality. Research in adversarial machine learning verifies that the threat is real. But what is the threat exactly? How does an adversarial attack work? In the next section, we'll break down the vulnerability that adversarial attacks target. We'll follow up with a discussion on how the attack exploits these vulnerabilities.
+Although these scenarios may sound exaggerated, they're grounded in reality. Research in adversarial machine learning verifies that the threat is real. But what is the threat exactly? How does an adversarial attack work? In the next section we'll break down the vulnerability in machine learning models that adversarial attacks target. We'll follow that up with a discussion on how adversarial attacks exploit this vulnerability.
 
 ## Place your bets
 
