@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What are adversarial attacks?"
-date:   2024-09-07 20:00:00 -0600
+date:   2024-09-09 12:00:00 -0600
 categories: jekyll update
 published: true
 ---
