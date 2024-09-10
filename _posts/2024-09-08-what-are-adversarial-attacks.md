@@ -12,7 +12,7 @@ For the past two years, I've been exploring some of the more [intriguing propert
 
 But what are adversarial attacks? How do they work, and how can they exploit our models? In today's blog, I'll seek to answer these questions with an introduction to the field of adversarial machine learning. Let's dive into it!
 
-*Note: This introductory post will expand over time. Last updated on September 9th, 2024.*
+*Note: This introductory post will expand over time. Last updated on September 10th, 2024.*
 
 ## A hidden danger
 
@@ -26,7 +26,7 @@ Although these scenarios may sound exaggerated, they're grounded in reality. Res
 
 ## Place your bets
 
-Models are like functions. They map some input to some prediction as an output. Machine learning models are so powerful because they can make useful predictions. We can use models that make good predictions to make good decisions.
+While there are many different kinds of machine learning models, they all have some things in common. Models are like functions. They map some input to some prediction as an output. Machine learning models are so powerful because they can make useful predictions. We can use models that make good predictions to make good decisions.
 
 Let's use a self-driving car as a running example. The vehicle uses a model called a road sign classifier to identify road signs. The model takes an image of the road as input and generates a prediction about any road signs present as output. When the vehicle notices an approaching stop sign, it makes the decision to apply the brakes. This important decision depends on the model to make good predictions.
 
@@ -59,5 +59,7 @@ This brief introduction has been only the tip of the iceberg. Research in advers
 Fortunately there are many great resources available to ground yourself in the field. A great place to start would be with the book [Strengthening Deep Neural Networks](https://www.amazon.com/Strengthening-Deep-Neural-Networks-Susceptible/dp/1492044954) by Katy Warr. This intuitive book lays the groundwork for understanding adversarial attacks and defenses. I personally enjoyed having access to so many quality source code examples.
 
 For a more immediate hands-on approach, check out an attack library. Two of the most relevant open-source libraries are [foolbox](https://github.com/bethgelab/foolbox) and [cleverhans](https://github.com/cleverhans-lab/cleverhans). Each is written in Python and can interface with PyTorch, Jax, and TensorFlow.
+
+While many resources focus specifically on deep neural networks, this [excellent introduction to adversarial robustness](https://adversarial-ml-tutorial.org/) has a chapter that specifically covers attacks on linear models.
 
 And of course you'll find more adversarial machine learning content here on the blog. In upcoming posts I plan to dive deeper into attack algorithms and common defenses. There's a lot to explore here and I'm so very excited to share the journey with you.
