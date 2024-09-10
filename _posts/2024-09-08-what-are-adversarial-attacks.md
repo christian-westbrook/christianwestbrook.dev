@@ -44,7 +44,9 @@ Once obtained, there are a few different ways that an attacker can use their exa
 
 Some attacks target models that are still in the training process. Malicious examples introduced at this point might allow an attacker to influence model behavior. We describe tampering with the training set like this as **data poisoning**.
 
-Through data poisoning, an attacker might even manage to teach the model a hidden pattern. Later, the attacker could trigger this hidden pattern with a follow-up evasion attack. We would call this scenario a **backdoor attack**. Once again, the attacker's power lies in their ability to force a model to mispredict.
+Through data poisoning, an attacker might even manage to teach the model a hidden pattern. Later, the attacker could trigger this hidden pattern with a follow-up evasion attack. We would call this scenario a **backdoor attack**. 
+
+There are many different kinds of adversarial attacks, but these are some of the most common. In each case the attacker's power lies in their ability to force a model to mispredict.
 
 ## Brace for impact
 
