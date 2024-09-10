@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What are adversarial attacks?"
-date:   2024-09-08 20:00:00 -0600
+date:   2024-09-09 20:00:00 -0600
 categories: jekyll update
 published: true
 ---
@@ -11,6 +11,8 @@ Hello, world, and welcome back to the blog!
 For the past two years, I've been exploring some of the more [intriguing properties](https://arxiv.org/abs/1312.6199) of neural networks. Along the way, I've learned an important fact about machine learning. Most models are vulnerable to a class of exploits known as **adversarial attacks**.
 
 But what are adversarial attacks? How do they work, and how can they exploit our models? In today's blog, I'll seek to answer these questions with an introduction to the field of adversarial machine learning. Let's dive into it!
+
+*Note: This introductory post will expand over time. Last updated on September 9th, 2024.*
 
 ## A hidden danger
 
