@@ -48,6 +48,6 @@ In this case, it wouldn't be enough for the attack to force a random mispredicti
 
 ## Diving deeper
 
-Defending real-world machine learning systems against adversarial attacks will require understanding the attacker's goals. The right defense for the job will depend on whether the attacker seeks to erode model confidence, force general mispredictions, or drive the model toward a specific incorrect label.
+Defending real-world machine learning systems against adversarial attacks will require an understanding of the attacker's goals. The right defense for the job will depend on whether the attacker seeks to erode model confidence, force general mispredictions, or force the model into a specific misprediction.
 
-Good further reading would be chapter 9 of [Strengthening Deep Neural Networks](https://amzn.to/3ATnK3X) by Katy Warr. To take a more fundamental look at adversarial machine learning, check out this [brief introduction to the field]({% post_url 2024-09-09-what-are-adversarial-attacks %}). In future posts, we'll explore how to harden models against these adversarial threats.
+Good further reading on the topic would be chapter 9 of [Strengthening Deep Neural Networks](https://amzn.to/3ATnK3X) by Katy Warr. To take a more fundamental look at adversarial machine learning, check out this [brief introduction to the field]({% post_url 2024-09-09-what-are-adversarial-attacks %}). In future posts, we'll explore how to harden models against adversarial threats.
