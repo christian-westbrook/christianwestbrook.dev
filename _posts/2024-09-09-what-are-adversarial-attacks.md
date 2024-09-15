@@ -12,8 +12,6 @@ For the past two years, I've been exploring some of the more [intriguing propert
 
 But what are adversarial attacks? How do they work, and how can they exploit our models? In today's blog, I'll seek to answer these questions with an introduction to the field of adversarial machine learning. Let's dive into it!
 
-*Note: This introductory post will expand over time. Last updated on September 10th, 2024.*
-
 ## A hidden danger
 
 Machine learning is booming. Engineers and researchers can field new applications faster than ever before. Models recommend our music, filter the media we consume, and diagnose our diseases. Virtually every industry is being both disrupted and revolutionized by machine learning.
@@ -64,4 +62,4 @@ For a more immediate hands-on approach, check out an attack library. Two of the 
 
 While many resources focus specifically on deep neural networks, this [excellent introduction to adversarial robustness](https://adversarial-ml-tutorial.org/) has a chapter that specifically covers attacks on linear models.
 
-And of course you'll find more adversarial machine learning content here on the blog. In upcoming posts I plan to dive deeper into attack algorithms and common defenses. There's a lot to explore here and I'm so very excited to share the journey with you.
+You'll also find more content related to adversarial machine learning here on the blog. For instance,  [this discussion on understanding attack outcomes]({% post_url 2024-09-14-a-taxonomy-of-malicious-intent %}). In upcoming posts I plan to dive deeper into attack algorithms and common defenses. There's a lot to explore here, and I'm so very excited to share the journey with you.
