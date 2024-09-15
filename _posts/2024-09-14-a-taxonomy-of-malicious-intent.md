@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "A Taxonomy of Malicious Intent"
+title:  "Defining a taxonomy of malicious intent"
 date:   2024-09-14 12:00:00 -0600
-categories: jekyll update
+categories: blog
+tags: adversarial
 published: true
 ---
 
