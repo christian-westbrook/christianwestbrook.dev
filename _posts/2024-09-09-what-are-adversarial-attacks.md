@@ -7,21 +7,15 @@ tags: adversarial
 published: true
 ---
 
-Hello, world, and welcome back to the blog!
+Machine learning is booming. Engineers and researchers can field new applications faster than ever before. Machine learning models recommend our music, filter the media we consume, and diagnose our diseases. Virtually every industry is being simultaneously disrupted and revolutionized by machine learning.
 
-For the past two years, I've been exploring some of the more [intriguing properties](https://arxiv.org/abs/1312.6199) of neural networks. Along the way, I've learned an important fact about machine learning. Most models are vulnerable to a class of exploits known as **adversarial attacks**.
+But behind our reliance on machine learning there lies a hidden danger. Machine learning models can be forced to make incorrect predictions. In certain scenarios the consequences of a coerced misprediction would be tragic.
 
-But what are adversarial attacks? How do they work, and how can they exploit our models? In today's blog, I'll seek to answer these questions with an introduction to the field of adversarial machine learning. Let's dive into it!
+What if an attacker could [convince a self-driving car to mistake a stop sign for a speed limit sign](https://arxiv.org/abs/1707.08945)? What if they could [force medical imaging systems to misdiagnose a patient's disease](https://www.ejradiology.com/article/S0720-048X(23)00399-6/fulltext)?
 
-## A hidden danger
+These scenarios might sound exaggerated, but research confirms that the threat is real. Machine learning models are vulnerable to an emerging class of exploits known as **adversarial attacks**.
 
-Machine learning is booming. Engineers and researchers can field new applications faster than ever before. Models recommend our music, filter the media we consume, and diagnose our diseases. Virtually every industry is being both disrupted and revolutionized by machine learning.
-
-But behind our increasing reliance on machine learning lies an emerging threat. Machine learning models can be hijacked and exploited by adversarial attacks.
-
-What if an attacker could convince a self-driving car to mistake a stop sign for a speed limit sign? What if they could force medical imaging systems to misdiagnose a patient's disease?
-
-Although these scenarios may sound exaggerated, they're grounded in reality. Research in adversarial machine learning verifies that the threat is real. But what is the threat exactly? How does an adversarial attack work? In the next section we'll break down the vulnerability in machine learning models that adversarial attacks target. We'll follow that up with a discussion on the ways that adversarial attacks exploit this vulnerability.
+But what is the threat exactly? How do adversarial attacks work, and how can they exploit our models? For the past two years I've been exploring the world of adversarial machine learning. Today I'll begin breaking down this exciting field of research for anyone looking to gain a deeper understanding of it. Let's dive into it!
 
 ## Place your bets
 
