@@ -9,11 +9,11 @@ published: true
 
 Machine learning is booming. Engineers and researchers can field new applications faster than ever before. Machine learning models recommend our music, filter the media we consume, and diagnose our diseases. Virtually every industry is being simultaneously disrupted and revolutionized by machine learning.
 
-But behind our reliance on machine learning there lies a hidden danger. Machine learning models can be forced to make incorrect predictions. In certain scenarios the consequences of a coerced misprediction would be tragic.
+But behind our increased dependence on machine learning there lies a hidden danger. **Machine learning models can be forced to make incorrect predictions.** In certain scenarios the consequences of a coerced misprediction could be tragic.
 
-What if an attacker could [convince a self-driving car to mistake a stop sign for a speed limit sign](https://arxiv.org/abs/1707.08945)? What if they could [force medical imaging systems to misdiagnose a patient's disease](https://www.ejradiology.com/article/S0720-048X(23)00399-6/fulltext)?
+What if an attacker could convince a self-driving car that a stop sign is really a speed-limit sign? What if they could force a medical imaging system to misdiagnose a patient's disease?
 
-These scenarios might sound exaggerated, but research confirms that the threat is real. Machine learning models are vulnerable to an emerging class of exploits known as **adversarial attacks**.
+These situations might seem farfetched, but research confirms that the threat is real. Machine learning models are vulnerable to an emerging class of exploits known as **adversarial attacks.**
 
 But what is the threat exactly? How do adversarial attacks work, and how can they exploit our models? For the past two years I've been exploring the world of adversarial machine learning. Today I'll begin breaking down this exciting field of research for anyone looking to gain a deeper understanding of it. Let's dive into it!
 
