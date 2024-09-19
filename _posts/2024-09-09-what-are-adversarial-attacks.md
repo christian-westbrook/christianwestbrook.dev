@@ -15,11 +15,13 @@ What if an attacker could convince a self-driving car that a stop sign is really
 
 These situations might seem farfetched, but research confirms that the threat is real. Machine learning models are vulnerable to an emerging class of exploits known as **adversarial attacks.**
 
-But what is the threat exactly? How do adversarial attacks work, and how can they exploit our models? For the past two years I've been exploring the world of adversarial machine learning. Today I'll begin breaking down this exciting field of research for anyone looking to gain a deeper understanding of it. Let's dive into it!
+But what is the threat exactly? How do adversarial attacks work, and how can they exploit our models? For the past two years I've been exploring the world of adversarial machine learning. Today I'll begin breaking down this exciting field of research for anyone looking to gain a deeper understanding. Let's dive into it!
 
 ## Place your bets
 
-While there are many different kinds of machine learning models, they all have some things in common. Models are like functions. They map some input to some prediction as an output. Machine learning models are so powerful because they can make useful predictions. We can use models that make good predictions to make good decisions.
+There are many different kinds of machine learning models. Some are supervised, some are linear, and others are unsupervised *and* nonlinear. Some models are used for classification, while others are used for regression. Some are tiny and others are [massive](https://en.wikipedia.org/wiki/GPT-3). These groupings are far from exhaustive. Despite the many different shapes and sizes that machine learning models come in, they all have certain properties in common.
+
+Models are like functions. They map some input to some prediction as an output. Machine learning models are so powerful because they can make useful predictions. We can use models that make good predictions to make good decisions.
 
 Let's use a self-driving car as a running example. The vehicle uses a model called a road sign classifier to identify road signs. The model takes an image of the road as input and generates a prediction about any road signs present as output. When the vehicle notices an approaching stop sign, it makes the decision to apply the brakes. This important decision depends on the model to make good predictions.
 
@@ -57,4 +59,4 @@ For a more immediate hands-on approach, check out an attack library. Two of the 
 
 While many resources focus specifically on deep neural networks, this [excellent introduction to adversarial robustness](https://adversarial-ml-tutorial.org/) has a chapter that specifically covers attacks on linear models.
 
-You'll also find more content related to adversarial machine learning here on the blog. For instance,  [this discussion on understanding attack outcomes]({% post_url 2024-09-14-a-taxonomy-of-malicious-intent %}). In upcoming posts I plan to dive deeper into attack algorithms and common defenses. There's a lot to explore here, and I'm so very excited to share the journey with you.
+You'll also find more content related to adversarial machine learning here on the blog. For instance, [this discussion on understanding attack outcomes]({% post_url 2024-09-14-a-taxonomy-of-malicious-intent %}). In upcoming posts I plan to dive deeper into attack algorithms and common defenses. There's a lot to explore here, and I'm so very excited to share the journey with you.
