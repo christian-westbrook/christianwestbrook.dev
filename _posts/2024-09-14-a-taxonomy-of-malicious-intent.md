@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Defining a taxonomy of malicious intent"
+title:  "A Taxonomy of Malicious Intent"
 date:   2024-09-14 12:00:00 -0600
 categories: blog
 tags: adversarial
