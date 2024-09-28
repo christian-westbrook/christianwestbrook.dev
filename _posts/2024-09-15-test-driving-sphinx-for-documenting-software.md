@@ -9,7 +9,7 @@ published: false
 
 
 
-Well-documented software is easier to use. When deciding whether to adopt a new tool or framework, one of the first things I look for is a project's documentation. This means that if I want to build software that other people use, I need to ensure that my work is documented.
+Well-documented software is easier to use. Good documentation reduces the learning curve and increases the odds that someone coming across your software will become a user. This means that if we want to build software that actually gets used, we need to ensure that our work is documented well.
 
 I've found that software teams who don't invest time into documenting as they go tend to struggle in a few key areas:
 
