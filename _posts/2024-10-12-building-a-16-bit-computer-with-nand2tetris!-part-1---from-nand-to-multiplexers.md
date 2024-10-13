@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Building the 16-bit Computer 'Hack' from Nand2Tetris! Part 1 - From Nand to Multiplexers"
-date:   2024-10-12 18:00:00 -0600
+title:  "Building the 16-bit Computer 'Hack' from Nand2Tetris! Part 1 - From Nand Gates to Multiplexers"
+date:   2024-10-12 12:00:00 -0600
 categories: blog
 tags: hardware
 published: true
