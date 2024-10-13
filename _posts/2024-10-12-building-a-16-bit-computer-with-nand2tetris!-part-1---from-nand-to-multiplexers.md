@@ -21,6 +21,8 @@ I'll begin documenting my journey through the Nand2Tetris book and project in to
 
 Today, I'll start by sharing how the first chapter of *The Elements of Computing Systems* went for me. Let's dive into it!
 
+## Let's get Boolean
+
 The book is organized into 12 chapters. The first six build up to an implementation of the project's computer, a 16-bit architecture called *Hack*. The first chapter introduces the reader to the primitive and composite logic gates that make up the *Hack* architecture.
 
 The vast majority of computers are digital devices. This means that computers usually process binary data (i.e., 1s and 0s) rather than continuous data. The cell phone next to me and the laptop I'm using to write this blog post each contain digital computers.
@@ -74,6 +76,8 @@ We can indeed express $$ Not() $$ using only $$ Nand() $$. This is a crucial pro
 
 Therefore, discovering how to express $$ Not() $$ using only $$ Nand() $$ is the key to building a computer entirely from $$ Nand() $$ gates!
 
+## Getting our hands dirty
+
 The first chapter of the book, and one of its appendices, walks the reader through this proof and realization before tackling how to build more complex "chips" from these more fundamental gates. Each chip has an interface expressing what it takes as an input and what it provides as an output. 
 
 Chips are implemented in the [Nand2Tetris IDE](https://nand2tetris.github.io/web-ide/chip/) using a hardware description language (HDL). Note that the authors intentionally decided against having readers use either of the industry-standard hardware description languages VHDL or Verilog. The authors attempt at every step to move vendor-specific details and obstacles away from the spotlight so that readers can focus on building generally transferrable skills.
@@ -93,5 +97,7 @@ I'm not sure if I reached the simplest possible solutions, but I did manage to e
 After building the fundamental gates and multiplexers, the next task is to make 16-bit versions of the gates $$ And() $$, $$ Or() $$, and $$ Not() $$, a 16-bit version of $$ Mux() $$, and an eight-way version of $$ Or() $$ that can sense whether any of eight inputs are set to on. These chips were very straightforward to build, given their corresponding gates. I was able to express each as a combination of their simpler variants.
 
 The final chips to implement were a much more significant challenge for me. These are multiway muxes and demuxes. For example, the $$ Mux4Way16() $$ chip selects between four different 16-bit input signals, while the $$ DMux8Way() $$ chip selects between eight different 1-bit output signals. Although it took me a while to see it, each of these chips can be expressed as combinations of simpler muxes and demuxes.
+
+## Outro
 
 At the end of this chapter and its corresponding project, we have 16 different chips to work with while building the *Hack* computer! All in all, the project for this chapter took me around four hours to complete in a single evening. I had a great experience working with the Nand2Tetris IDE, and I'm already looking forward to using these chips to build an ALU in the next chapter.
