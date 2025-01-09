@@ -13,7 +13,7 @@ The book itself outlines a phased technique for note taking called the CODE meth
 
 ### Capture
 
-The C in CODE stands for capture. As I'm going about my day and consuming my regular content, I pause to capture any interesting thoughts or ideas as notes in my digital note taking app. I'm currently using an app called Notion that makes it easy to synchronize my notes between devices. It's important for me to make this step as quick and easy as possible so that I'll actually follow through with taking notes in the moment.
+The C in CODE stands for capture. As I'm going about my day and consuming my regular content, I pause to capture any interesting thoughts or ideas as notes in my digital note taking app. I'm currently using [an app called Notion](https://affiliate.notion.so/1hobpl2apf9d) that makes it easy to synchronize my notes between devices. It's important for me to make this step as quick and easy as possible so that I'll actually follow through with taking notes in the moment.
 
 An easy mistake to make here is to take too many notes, bogging down later phases. My goal here isn't to be continuously taking Cornell notes on every book and article I read. The author recommends that you only capture what resonates with you. For this article the process began by listening to the audio book of *Building a Second Brain*, pausing to take simple notes at points that felt important. I used a single page for capturing all of my notes from the book.
 
@@ -37,7 +37,7 @@ The third layer makes it even easier to quickly spot the main ideas in a given n
 
 ### Express
 
-The final phase of the CODE method is expression. In this phase I constrain myself to using only the notes I've captured and distilled as fuel for creating something new and my own, in this case a blog post. The author emphasizes refusing to wait until you feel perfectly prepared before sharing what you know with others, but rather to express your ideas early, often, and in smaller chunks. I alluded to this in another blog about evolutionary writing.
+The final phase of the CODE method is expression. In this phase I constrain myself to using only the notes I've captured and distilled as fuel for creating something new and my own, in this case a blog post. The author emphasizes refusing to wait until you feel perfectly prepared before sharing what you know with others, but rather to express your ideas early, often, and in smaller chunks. I alluded to this in [another blog post about evolutionary writing]({% post_url 2024-12-18-learning-to-blog-evolutionary-writing %}).
 
 For this blog I sat down with freshly distilled notes and wrote an outline and a first draft in a single session. I came back on another night and wrote the second draft before editing and publishing. In each session I referred only to my distilled notes on *Building a Second Brain* while writing. After publishing this blog post, I reflected on ideas for future blog posts before moving my project folder for this blog into my project archives.
 
