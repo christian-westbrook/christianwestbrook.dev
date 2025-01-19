@@ -7,11 +7,11 @@ tags: code rpg web
 published: true
 ---
 
-Today I'm excited to share that I'm kicking off a new side project. With any new project, it's important to understand what you're trying to achieve before you begin, so my first step will be to define project objectives.
+Today I'm excited to share that I'm kicking off a new side project. With any new project it's important to understand what you're trying to achieve before you begin, and so my first step will be to define project objectives.
 
-My old physics professor used to tell us that while most people learn from their own mistakes, the wise manage to learn from others' mistakes instead. It makes me chuckle to share with you that I tend to learn best by building things myself. With this new project, I'm looking for growth through acquiring specific experiences while creating something.
+My old physics professor used to tell us that while most people learn from their own mistakes, the wise manage to learn from others' mistakes instead. It may be telling, but I do tend to learn best by building things myself. With this new project I'm looking to growth by acquiring specific experiences while creating.
 
-I specifically want to work through the process of iteratively building and marketing a software service that people will actually use. Even if it's only a small niche of people, I want the responsibility of independently operating and improving it. This scenario would be fertile ground for experimenting with my CI/CD and project management practices.
+I specifically want to work through the process of independently and iteratively building and marketing a software service that people will actually use. Even if it's only a small niche of people, I want the responsibility of operating and improving it. This scenario would be fertile ground for experimenting with my CI/CD and project management practices.
 
 These objectives can be articulated in the following short list:
 
@@ -28,7 +28,7 @@ A good starting point would be to build a service catering to a niche group of p
 
 It so happens that I am already heavily invested in a pair of niche gaming communities where I've already built an audience. One of these is the solo tabletop roleplaying community surrounding Word Mill Game's Mythic Game Master Emulator, and the other is the community surrounding RuneScape, a classic massively multiplayer online roleplaying game. I maintain a YouTube channel with an audience of more than 1000 subscribers who mostly watch either tabletop roleplaying games or retro fantasy roleplaying games. This is an immediately accessible market that might be willing to spend their time testing out a game being tailored for them.
 
-RuneScape is interesting in that it has had regular content updates since it was initially launched as a service in 2001. RuneScape is still serving fresh content to a large community of paying customers. I've invested quite a bit of time into RuneScape (you'll find me on the high scores here), and I'm well aware of the influence that the game has had on my belief in tight iterative development cycles. RuneScape started out life as a small project that grew over time into the iconic franchise it represents today. There's an awesome documentary about it on YouTube if you're interested in a dose of early 2000s nostalgia.
+RuneScape is interesting in that it has had regular content updates since it was initially launched as a service in 2001. RuneScape is still serving fresh content to a large community of paying customers. I've invested quite a bit of time into RuneScape (you can find me on the high scores [here](https://secure.runescape.com/m=hiscore/ranking?table=0&category_type=0&user=twinnrova)), and I'm well aware of the influence that the game has had on my belief in tight iterative development cycles. RuneScape started out life as a small project that grew over time into the iconic franchise it represents today. There's an awesome documentary about it on YouTube if you're interested in a dose of early 2000s nostalgia.
 
 All of this points me towards creating a live game as a service and marketing it to my YouTube audience. While the gaming industry is incredibly competitive, I may have a chance at building a small user base if I can tailor a game to my niche and make it available for free. I may even grow a following if I can provide regular updates about my progress. To state this confidently, however, is to do exactly what I've already warned against doing: making unvalidated assumptions.
 
