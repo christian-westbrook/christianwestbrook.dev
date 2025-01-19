@@ -8,7 +8,7 @@ Hi!
 
 I'm a lifelong student of computing writing about the things that interest me.
 
-I'm currently working as a Solutions Architect at Lockheed Martin Space where I support projects related to AI path planning, computer vision, and quantum machine learning. I've supported remote sensing missions for [planetary science in deep space](https://science.nasa.gov/planetary-science/programs/new-frontiers/) and for [early missile warning](https://www.lockheedmartin.com/en-us/products/sbirs.html) on Earth.
+I'm currently working as a Software Architect at Lockheed Martin Space where I support projects related to AI path planning, computer vision, and quantum machine learning. I've supported remote sensing missions for [planetary science in deep space](https://science.nasa.gov/planetary-science/programs/new-frontiers/) and for [early missile warning](https://www.lockheedmartin.com/en-us/products/sbirs.html) on Earth.
 
 I'm also a PhD student at CSU where I study hardware-software co-design and [write about model compression](https://arxiv.org/abs/2303.02214).
 
