@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Learning to Blog: Evolutionary Writing"
+title:  "Learning to Blog #1: Evolutionary Writing"
 date:   2024-12-18 17:00:00 -0600
 categories: blog
 tags: writing blogging evolution

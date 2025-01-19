@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Building the Nand2Tetris Computer! Part 1 - From Nand Gates to Multiplexers"
+title:  "Nand2Tetris #1: From Nand Gates to Multiplexers"
 date:   2024-10-12 12:00:00 -0600
 categories: blog
 tags: hardware

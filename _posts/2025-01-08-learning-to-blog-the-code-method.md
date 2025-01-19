@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Learning to Blog: The CODE Method"
+title:  "Learning to Blog #1: The CODE Method"
 date:   2025-1-08 17:00:00 -0600
 categories: blog
 tags: writing blogging code
