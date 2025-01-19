@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "RPG as a Service Devlog #1: On Unvalidated Assumptions"
+title:  "RPG-as-a-Service Devlog #1: On Unvalidated Assumptions"
 date:   2025-1-19 12:00:00 -0600
 categories: blog
 tags: code rpg web
@@ -15,8 +15,8 @@ I specifically want to work through the process of iteratively building and mark
 
 These objectives can be articulated in the following short list:
 
-\- Create a software service that people actually use
-\- Experiment with new processes and technologies
+\- Create a software service that people actually use  
+\- Experiment with new processes and technologies  
 
 This is a workable starting point. Perhaps the biggest benefit we receive from clearly stating our objectives is the ability to filter future decisions through them. It's easier to make tradeoffs when priorities are visible and understood.
 
