@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "RPG-as-a-Service Devlog #1: On Unvalidated Assumptions"
+title:  "RPG-as-a-Service: On Unvalidated Assumptions"
 date:   2025-1-19 12:00:00 -0600
 categories: blog
 tags: code rpg web
