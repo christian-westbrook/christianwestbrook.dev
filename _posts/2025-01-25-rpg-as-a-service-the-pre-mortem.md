@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "RPG-as-a-Service: The Pre-Mortem"
-date:   2025-1-22 12:00:00 -0600
+date:   2025-1-25 12:00:00 -0600
 categories: blog
 tags: code rpg web
 published: true
