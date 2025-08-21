@@ -1,6 +1,6 @@
 FROM nginx:1.29.1-alpine
 
-COPY . /usr/share/nginx/html/
+COPY public/ /usr/share/nginx/html/
 COPY nginx.conf /etc/nginx/conf.d/app.conf
 
 EXPOSE 3000
