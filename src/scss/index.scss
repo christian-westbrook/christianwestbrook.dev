@@ -1,0 +1,25 @@
+/*
+    System   : christianwestbrook.dev
+    File     : index.css
+    Engineer : Christian Westbrook
+    Abstract : This file provids styling for index.html.
+*/
+
+// Constants
+$background-color: #252525;
+$content-color: #BBBBBB;
+
+body {
+    background-color: $background-color;
+    color: $content-color;
+}
+
+a {
+    color: $content-color;
+    text-decoration: none;
+}
+
+pre {
+    margin: 0 auto;
+    text-align: center;
+}
