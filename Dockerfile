@@ -4,7 +4,7 @@ FROM alpine:3.22 AS builder
 RUN --mount=type=cache,target=/var/cache/apk \
     --mount=type=cache,target=/root/.npm \
     apk update && \
-    apk add make nginx nodejs npm && \
+    apk add make nodejs npm && \
     npm install -g sass
 
 WORKDIR /app/
