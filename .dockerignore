@@ -1,2 +1,10 @@
+# Build
+public/
+
+# Git
 .git
 .gitignore
+
+# Project
+LICENSE
+README.md
