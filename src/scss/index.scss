@@ -25,3 +25,12 @@ header pre {
     margin: 0 auto;
     text-align: center;
 }
+
+#content {
+    display: flex;
+    justify-content: center;
+}
+
+#content p {
+    font-size: 24px;
+}
