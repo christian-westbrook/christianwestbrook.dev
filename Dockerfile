@@ -20,6 +20,6 @@ ARG ENV=dev
 COPY --from=builder app/public/ /usr/share/nginx/html/
 COPY nginx.${ENV}.conf /etc/nginx/conf.d/app.conf
 
-EXPOSE 3000
+EXPOSE 80 443
 
 CMD ["nginx", "-g", "daemon off;"]
