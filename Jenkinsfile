@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Executing the Build stage'
+                sh 'docker image build -t christianwestbrook.dev:latest . 2>&1'
             }
         }
 
