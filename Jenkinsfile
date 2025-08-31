@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Executing the Build stage'
-                sh 'docker image build -t christianwestbrook.dev:latest . 2>&1'
+                sh 'docker image build --tag christianwestbrook.dev:latest --build-arg ENV=prod . 2>&1'
             }
         }
 
@@ -20,7 +20,7 @@ pipeline {
                 echo 'Executing the Deploy stage'
                 sh 'docker container stop christianwestbrook.dev 2>/dev/null || true'
                 sh 'docker container rm christianwestbrook.dev 2>/dev/null || true'
-                sh 'docker container run --detach --name christianwestbrook.dev --publish 3000:3000 christianwestbrook.dev:latest'
+                sh 'docker container run --detach --name christianwestbrook.dev --publish 80:80 --publish 443:443 --volume /etc/letsencrypt:/etc/letsencrypt christianwestbrook.dev:latest'
             }
         }
     }
