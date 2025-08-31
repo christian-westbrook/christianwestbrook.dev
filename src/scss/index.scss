@@ -10,6 +10,7 @@ $background-color: #252525;
 $content-color: #BBBBBB;
 $font-family: Cambria, sans-serif;
 
+// General styles
 body {
     background-color: $background-color;
     color: $content-color;
@@ -21,11 +22,13 @@ a {
     text-decoration: none;
 }
 
+// Header styles
 header pre {
     margin: 0 auto;
     text-align: center;
 }
 
+// Content styles
 #content {
     display: flex;
     justify-content: center;
