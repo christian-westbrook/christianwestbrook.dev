@@ -1,5 +1,20 @@
 #!/usr/bin/env python3
 
+"""
+-----------------------------------------------------------------------------
+System   : christianwestbrook.dev
+Script   : post-receive
+Engineer : Christian Westbrook
+Abstract : This is a Git post-receive hook used to kick off a CI/CD
+           pipeline whenever the christianwestbrook.dev repository receives
+           a push with commits to a branch.
+
+           Documentation on post-receive hooks:
+           https://git-scm.com/docs/githooks#post-receive
+           https://git-scm.com/docs/git-receive-pack#_post_receive_hook
+-----------------------------------------------------------------------------
+"""
+
 import subprocess
 import sys
 
@@ -19,7 +34,6 @@ def main():
 
         if reference_name.startswith("refs/heads/"):
             branch = reference_name.replace("refs/heads/", "")
-
             job_name = "christianwestbrook.dev/" + branch
 
             subprocess.run([
