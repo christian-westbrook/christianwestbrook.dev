@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import sys
+import subprocess
 
 for line in sys.stdin:
     old_revision, new_revision, reference_name = line.strip().split()
@@ -11,3 +12,13 @@ for line in sys.stdin:
 
     if reference_name == "refs/heads/main":
         print("Detected a push to the main branch")
+        print("Kicking off the Jenkins Pipeline")
+
+        result = subprocess.run([
+            'ssh', '-l', 'christian-westbrook', 
+            '-p', '8081', 
+            'homelab-01', 'build', 'christianwestbrook.dev'
+        ], check=True)
+
+        if result.returncode != 0:
+            sys.exit(result.returncode)
