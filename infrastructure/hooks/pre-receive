@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+
+import sys
+
+for line in sys.stdin:
+    old_revision, new_revision, reference_name = line.strip().split()
+
+    print(f"Processing reference: {reference_name}")
+    print(f"Old commit: {old_revision[:8]}")
+    print(f"New commit: {new_revision[:8]}")
+
+    if reference_name == "refs/heads/main":
+        print("Detected a push to the main branch")
