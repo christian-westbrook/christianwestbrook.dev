@@ -16,6 +16,9 @@ pipeline {
         }
 
         stage('Deploy') {
+            when {
+                branch 'main'
+            }
             steps {
                 echo 'Executing the Deploy stage'
                 sh 'docker container stop christianwestbrook.dev 2>/dev/null || true'
