@@ -1,9 +1,32 @@
 #!/usr/bin/env python3
 
 import subprocess
+import sys
 
-subprocess.run([
-    'ssh', '-l', 'christian-westbrook', 
-    '-p', '8081', 
-    'homelab-01', 'build', 'christianwestbrook.dev'
-], check=True)
+def main():
+    """
+    This function executes whenever Git receives a push.
+    Git feeds each updated reference as a line to the post-receive hook's
+    stdin in the format: <old-commit> <new-commit> <reference-name>
+
+    Documentation on Linux IO streams, including stdin:
+    https://man7.org/linux/man-pages/man3/stdin.3.html
+    """
+
+    # Process one line of input for each successfully updated reference
+    for line in sys.stdin:
+        _, _, reference_name = line.strip().split()
+
+        if reference_name.startswith("refs/heads/"):
+            branch = reference_name.replace("refs/heads/", "")
+
+            job_name = "christianwestbrook.dev/" + branch
+
+            subprocess.run([
+                'ssh', '-l', 'christian-westbrook',
+                '-p', '8081',
+                'homelab-01', 'build', job_name
+            ], check=True)
+
+if __name__ == "__main__":
+    main()
