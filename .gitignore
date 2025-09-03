@@ -3,3 +3,7 @@ public/
 
 # Content
 blogs/
+
+# Structurizr
+.structurizr/
+workspace.json
