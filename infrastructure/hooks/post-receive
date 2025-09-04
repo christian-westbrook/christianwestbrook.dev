@@ -42,5 +42,19 @@ def main():
                 'homelab-01', 'build', job_name
             ], check=True)
 
+def job_exists(job):
+    """
+    Checks whether the given build job is available, implying that the branch
+    specified by the job has already been detected by Jenkins.
+    """
+
+    result = subprocess.run([
+        'ssh', '-l', 'christian-westbrook',
+        '-p', '8081',
+        'homelab-01', 'get-job', job
+    ], capture_output=True, check=False)
+
+    return result.returncode == 0
+
 if __name__ == "__main__":
     main()
