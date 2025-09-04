@@ -30,6 +30,7 @@ You'll find the project running at `http://localhost:80`
 |----------|---------|
 | `.dockerignore` | Tells Docker which files to ignore when copying files into an application container |
 | `.gitignore` | Tells Git which files to ignore when tracking development |
+| `CONTRIBUTING.md` | Documents how to get started with contributing |
 | `Dockerfile` | Configures an application container using Docker: https://www.docker.com/ |
 | `Jenkinsfile` | Configures a continuous integration and delivery pipeline using Jenkins: https://www.jenkins.io/ |
 | `LICENSE` | Specifies how others may legally use this software |
