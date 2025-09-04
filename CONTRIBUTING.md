@@ -61,6 +61,10 @@ Once your submission is approved by a Maintainer, they will merge your pull requ
 
 Follow existing code conventions wherever possible, but feel free to [suggest improvements!](https://github.com/christian-westbrook/christianwestbrook.dev/issues)
 
+## Versioning
+
+This project follows the [semantic versioning specification](https://semver.org/), leveraging [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) for automation.
+
 ## Questions
 
 Feel free to open an [issue](https://github.com/christian-westbrook/christianwestbrook.dev/issues) or to contact [Christian](mailto:christian.a.westbrook@proton.me) for help.  
