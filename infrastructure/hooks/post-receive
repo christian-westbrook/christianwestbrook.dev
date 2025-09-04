@@ -42,12 +42,7 @@ def main():
             if job_exists(job):
                 print("Found the job " + job)
                 print("Triggering a build job for " + job)
-
-                subprocess.run([
-                    'ssh', '-l', 'christian-westbrook',
-                    '-p', '8081',
-                    'homelab-01', 'build', job
-                ], check=True)
+                trigger_build(job)
             else:
                 print("Unable to find the job " + job)
                 print("If you would like to trigger a build, navigate to the")
@@ -68,6 +63,17 @@ def job_exists(job):
     ], capture_output=True, check=False)
 
     return result.returncode == 0
+
+def trigger_build(job):
+    """
+    Triggers a Jenkins Pipeline build job.
+    """
+    subprocess.run([
+        'ssh', '-l', 'christian-westbrook',
+        '-p', '8081',
+        'homelab-01', 'build', job
+    ], check=True)
+
 
 def intro():
     """
