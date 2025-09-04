@@ -2,6 +2,8 @@ This repository contains the source code for [christianwestbrook.dev](https://ww
 
 [![Screenshot](docs/images/screenshot.png)](https://www.christianwestbrook.dev/)
 
+My goal for this project is to build an opinionated and batteries-included blogging and portfolio platform that gets tech professionals online in minutes, not hours.
+
 ## Usage
 
 Build and run this project with Docker:
