@@ -20,7 +20,7 @@ import sys
 
 def main():
     """
-    This function executes whenever Git receives a push.
+    Executes whenever Git receives a push.
     Git feeds each updated reference as a line to the post-receive hook's
     stdin in the format: <old-commit> <new-commit> <reference-name>
 
@@ -28,19 +28,32 @@ def main():
     https://man7.org/linux/man-pages/man3/stdin.3.html
     """
 
+    intro()
+
     # Process one line of input for each successfully updated reference
     for line in sys.stdin:
-        _, _, reference_name = line.strip().split()
+        _, _, reference = line.strip().split()
 
-        if reference_name.startswith("refs/heads/"):
-            branch = reference_name.replace("refs/heads/", "")
-            job_name = "christianwestbrook.dev/" + branch
+        if reference.startswith("refs/heads/"):
+            branch = reference.replace("refs/heads/", "")
+            job = "christianwestbrook.dev/" + branch
+            print("Detected a push to " + branch)
 
-            subprocess.run([
-                'ssh', '-l', 'christian-westbrook',
-                '-p', '8081',
-                'homelab-01', 'build', job_name
-            ], check=True)
+            if job_exists(job):
+                print("Found the job " + job)
+                print("Triggering a build job for " + job)
+
+                subprocess.run([
+                    'ssh', '-l', 'christian-westbrook',
+                    '-p', '8081',
+                    'homelab-01', 'build', job
+                ], check=True)
+            else:
+                print("Unable to find the job " + job)
+                print("If you would like to trigger a build, navigate to the")
+                print("Jenkins web console and scan the Pipeline before ")
+                print("triggering a build manually")
+    print("")
 
 def job_exists(job):
     """
