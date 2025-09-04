@@ -1,3 +1,7 @@
+This repository contains the source code for [christianwestbrook.dev](https://www.christianwestbrook.dev/), my personal blog site!
+
+[![Screenshot](docs/images/screenshot.png)](https://www.christianwestbrook.dev/)
+
 ## Usage
 
 Build and run this project with Docker:
