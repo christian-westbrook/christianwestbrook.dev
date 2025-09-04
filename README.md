@@ -1,4 +1,11 @@
-This repository contains the source code for [christianwestbrook.dev](https://christianwestbrook.dev/), the personal blog site of Christian Westbrook.
+## Usage
+
+Build and run this project with Docker:
+
+`docker image build --tag christianwestbrook.dev:local .`  
+`docker container run --detach --rm --publish 80:80 christianwestbrook.dev:local`  
+
+You'll find the project running at `http://localhost:80`
 
 ## Project Structure
 
