@@ -34,3 +34,6 @@ You'll find the project running at `http://localhost:80`
 | `Makefile` | Defines the build process using GNU Make: https://www.gnu.org/software/make/ |
 | `README.md` | Documents the project structure |
 
+## Contributing
+
+Get started by reading [CONTRIBUTING.md](./CONTRIBUTING.md) and then look for any open [issues](https://github.com/christian-westbrook/christianwestbrook.dev/issues).
