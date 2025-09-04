@@ -42,6 +42,10 @@ Retrieves the homepage of [christianwestbrook.dev](https://www.christianwestbroo
 | `Makefile` | Defines the build process using GNU Make: https://www.gnu.org/software/make/ |
 | `README.md` | Documents the project structure |
 
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/license/mit). See the [LICENSE](LICENSE) file for details.
+
 ## Contributing
 
 Get started by reading [CONTRIBUTING.md](./CONTRIBUTING.md) and then look for any open [issues](https://github.com/christian-westbrook/christianwestbrook.dev/issues).
