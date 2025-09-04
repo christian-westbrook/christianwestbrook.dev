@@ -13,6 +13,11 @@ Build and run this project with Docker:
 
 You'll find the project running at `http://localhost:80`
 
+## API
+
+**GET /**  
+Retrieves the homepage of [christianwestbrook.dev](https://www.christianwestbrook.dev) (HTML)  
+
 ## Project Structure
 
 ### Folders
