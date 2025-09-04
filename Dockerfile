@@ -18,7 +18,7 @@ FROM nginx:1.29.1-alpine3.22
 ARG ENV=dev
 
 COPY --from=builder app/public/ /usr/share/nginx/html/
-COPY nginx.${ENV}.conf /etc/nginx/conf.d/app.conf
+COPY infra/nginx/nginx.${ENV}.conf /etc/nginx/conf.d/app.conf
 
 EXPOSE 80 443
 
