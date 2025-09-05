@@ -1,0 +1,22 @@
+// Root container styles
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+// Header styles
+header pre {
+    margin: 0 auto;
+    text-align: center;
+}
+
+// Content styles
+#content {
+    display: flex;
+    justify-content: center;
+}
+
+#content p {
+    font-size: 24px;
+}

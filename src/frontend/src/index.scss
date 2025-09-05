@@ -1,0 +1,43 @@
+/*
+    System   : christianwestbrook.dev
+    File     : index.scss
+    Engineer : Christian Westbrook
+    Abstract : This file provides global styling and resets for
+               the React frontend of christianwestbrook.dev
+*/
+
+// Constants
+$background-color: #252525;
+$content-color: #BBBBBB;
+$font-family: Cambria, sans-serif;
+
+:root {
+  background-color: $background-color;
+  color: $content-color;
+  font-family: $font-family;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: $content-color;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: $background-color;
+    background-color: $content-color;
+  }
+  a {
+    color: $background-color;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
