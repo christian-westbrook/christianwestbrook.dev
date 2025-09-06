@@ -1,0 +1,8 @@
+# Blog Content
+blogs/
+
+# Cache
+__pycache__
+
+# Virtual Environment
+.venv
