@@ -1,8 +1,21 @@
 body {
     background-color: #FAF9F6;
     color: #36454F;
+
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6, p {
     font-family: "IBM Plex Serif", "Times New Roman", serif;
+}
+
+p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+    p {
+        line-height: 2;
+    }
 }
