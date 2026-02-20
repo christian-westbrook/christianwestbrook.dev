@@ -1,33 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+/** 
+ * @module App
+ * @description Represents a software engineer's landing page.
+ */
+
 import './App.css'
 
+import "@fontsource/ibm-plex-serif";
+
+/** Serves a simple landing page. */
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <h1>Hi, I'm Christian!</h1>
+      <p>I'm a Software Engineer based out of Northwest Arkansas.</p>
+      <p>This website is my playground (currently under construction). I sincerely hope you enjoy!</p>
     </>
   )
 }
