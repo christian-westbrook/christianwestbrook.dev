@@ -1,7 +1,13 @@
+/** 
+ * @module App
+ * @description Represents a software engineer's landing page.
+ */
+
 import './App.css'
 
 import "@fontsource/ibm-plex-serif";
 
+/** Serves a simple landing page. */
 function App() {
 
   return (
