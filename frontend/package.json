@@ -5,12 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "doc": "bash ./node_modules/.bin/jsdoc --configure jsdoc-conf.json --readme ./README.md --destination ../docs/ ./src/App.tsx",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
     "@fontsource/ibm-plex-serif": "^5.2.7",
+    "jsdoc": "^4.0.5",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
